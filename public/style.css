@@ -1,0 +1,120 @@
+html {
+  font-size: 100%; /****VW-Viewport width****/
+}
+
+body {
+  font-family: "Lato", "Arial", "sans-serif";
+  margin: 2em;
+  border-top: 2px solid;
+  position: relative;
+  padding: 1em;
+}
+
+body:before {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0.1;
+  background-color: currentColor;
+  background-image: linear-gradient(to bottom, currentColor, #061539);
+}
+/*||||||||||||||||||||||||||||||||||
+
+Just change this color.             */
+html {
+  color: #af4f44;
+  animation: color 30s linear infinite;
+}
+@keyframes color {
+  66.7% {
+    color: #2a656b;
+  }
+  66.7% {
+    color: #79a13f;
+  }
+}
+h1 {
+  color: #b16969;
+  text-align: center;
+  color: black;
+  margin-top: 0;
+  text-shadow: 2px 2px #888888;
+}
+
+div.block2.block-job-title:nth-child(1) {
+  background-image: linear-gradient(20deg, #1A4549,#58B6BF);
+}
+div.block2.block-job-title:nth-child(2) {
+  background-image: linear-gradient(20deg, #78322B, #FF8173);
+}
+div.block2.block-job-title:nth-child(3) {
+  background-image: linear-gradient(20deg, #205B2D, #61D77B);
+}
+div.block2.block-expertise:nth-child(1) {
+  background-image: linear-gradient(20deg, #1A4549,#58B6BF);
+}
+div.block2.block-expertise:nth-child(2) {
+  background-image: linear-gradient(20deg, #78322B, #FF8173);
+}
+div.block2.block-expertise:nth-child(3) {
+  background-image: linear-gradient(20deg, #205B2D, #61D77B);
+}
+
+div.block2,
+div.block-job-title {
+  width: 100%;
+  height: 15px;
+  transition: all 2s ease 0s;
+  border: 1px solid #58B6BF;
+  box-shadow: 5px 3px 3px;
+  padding: 8px 12px;
+  border-radius: 3px;
+  transform: scale(1.1);
+  color: black;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+div.block-job-title span {
+padding-left: 10px;
+}
+div.block-expertise span {
+  padding-left: 20px;
+}
+
+
+div.block2:hover,
+div.block-job-title:hover {
+  cursor: pointer;
+}
+
+div {
+  margin: 20px;
+  margin: auto;
+  margin-bottom: 10px;
+  width: 45%;
+}
+
+div#question1 p,
+div#question2 p {
+  margin: 20px;
+  color: black;
+  margin: auto;
+  width: 50%;
+}
+
+
+@media only screen and (max-width: 620px) {
+  div#text,
+  div#question1,
+  div#question2,
+  div.block-expertise span,
+  div.block-job-title span,
+  div.block2,
+  div.block2-block-job-title {
+    width: 100%;
+  }
+}

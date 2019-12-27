@@ -1,0 +1,1192 @@
+If the count parameter is not provided or is a value of 0, the repeat() method will return an empty string. 
+If the count parameter is a negative value, the repeat() method will return RangeError.
+
+*****TUDO SOBRE JSON******
+Where will we use JSON?
+Some scenarios include:
+Data storage
+Data configuration and verification
+Generating data structures from user input
+Data transfer from client to server, server to client, and between servers
+A note on AJAX — JSON is often used with AJAX, or Asynchronous JavaScript and XML.
+ AJAX is used to transfer data without having to refresh the browser page. 
+ Later in this article, we’ll look at how to make an AJAX request to a JSON file, and output the content in the browser.
+ { "key": "value" } UM JSON TEM UMA CHAVE E UM VALOR ESTAO WRAPPED (EMBRULHADO)
+ When we want to transfer or store our data, its very useful to be able to convert our JSON object to a string using JSON.stringify(). 
+ And likewise convert from a string back into an object using JSON.parse().
+*****************
+
+********'OBJECT KEY, VALUES,ENTRIES(entradas)!*************
+Object.keys(obj) – returns an array of keys. retorna o valor da chave de uma string 
+Object.values(obj) – returns an array of values.
+Object.entries(obj) – returns an array of [key, value] pairs.
+
+***********STYLING ONE DIV**************
+
+Do a style in one a div to get the result of a statisct with colors.
+Do eventListen using a radio button  to get display the value in my html
+
+**************PAI OBRIGADA PELO SEU AMOR POR MIN*************
+As vezez me sinto muito só mais sei que vc paizinho esta cuidando de min, me dando forcas para seguir adiante
+diz que sou amado quando a fraqueza esta em min... eu creio ... tudo o que importa agora é o que a tua voz med diz 
+diz que sou forte sou quando a fraqueza esta em min, diz que forte sou....
+tudo o que eu tenho eu rendo aos teus pés e mais ninguem!!
+tudo que tu me deres renderei ha ti o pai...
+25/11 MUITO OBRIGADO PAIZINHO POR ESTA COMIGO ME DANDO FORCA, PARA QUE EU ME SINTA CAPAZ, POIS SEI QUE O SENHOR ESTA COMIGO. 
+OBRIDAGA POR ENCHER MEU CORACAO COM SEU AMOR PARA QUE EU NAO POSSA ME SENTIR SOZINHA..TE AMO TE AMO PAI QUERIDO
+********TE AMO IFINITAMENTE PAI AMANDO*****************
+
+
+**********FAZENDO UM GRAFICO EM PARA MOSTRAR OS RESULTADOS EM UMA COLUNA******
+*****JAVASCRIPT LABEL STATEMENT(RÓTULO) IS USED TO PREFIX A INDENTIFIER.
+identificador para prefixo de dois (:) pontos.
+
+*********chegou um momento em que eu só quero dormir, estou muito cansada...
+quero dormir, nao estou conseguindo me consentrar, a cabeca nao funciona mais, estou quase dormindo aqui nessa caderia
+talvez seja por que eu nao sei mais o que fzer 
+
+
+*******möte 15/11/2019*********
+Dev problem- xml-server to get new release
+Merger news release into to the new site. Did in JAVA language.
+************************************
+
+
+
+****APP to get the right information******
+tratar uma pergunta de cada vez!
+
+
+***********GRAFICO*************
+
+*********************************
+ARRAY.filter() funcao
+Array.prototype.slice.call(document.getElementsByName('rbtn')).filter(x=>{return x.checked})[0].title
+lägger in in an array end seleciona os obejetos dentro dessa array
+
+function numberPositive(value){
+return value < 20;
+
+}
+
+var filtered = [122, 30, 43, 0, 48, -1].filter(numberPositive);
+console.log(filtered);
+//output [o, -1]
+todos os numeros menores que 20
+
+*********************************
+
+getElmentsByName <-- ger en Nodelist så den är inte någon array;
+Nodelist is not a JavaScript API but a browser API
+querySelectorAll() and getElementsByTagName() aren't JavaScript methods, they are browser API that let me acess 
+the DOM elements and i can manipulate them using JavaScript.
+
+för att converterar den till en array måste man göra såhär ===>>> Array.prototype.slice.call() 
+***********
+FUNCCAO parseFloat() analisa um argument string and return o numero do ponto fluente.
+*******
+
+*******
+Lebelling ===> man kan lägga in dolar tecken, porecentagen etc..
+in my chart i form av en callback function
+***********
+
+********A PROMISE IS A CALLBACK FUNCTIO*********
+IT IS ATTACHED OR RETURNED FROM AN EXISTENT function
+PROMISE waits untill the previous function has been fulfillde to be executed 
+
+***************
+//ARRAY.prototype.map()Function
+The MAP() method => works on an array and return an array that’s it. 
+Above code snippet works on an collection i.e an array and takes a callback with current iteration value, 
+index as arguments and return a new array.
+arr.map()function creates a new array with the result of called function for every array element.
+This function calls the argument function once for each element of the give array in order. 
+
+var array = [2, 3, 5, 30, 45];
+
+var new_array = array.map((number)=>{
+return number * 2;
+
+});
+console.log(new_array); // multiplica os numeros da original array * 2 e os coloca na minha new_array
+***************
+
+The function reduce() =>> its similar JavaScript map() and JavaScript filter() but, its differs in the callback arguments.
+    array.reduce(function(total, currentValue, currentIndex, arr), initialValue)
+        # or
+    array.reduce(callback[, initialValue]);
+**************
+    var x = 10;  
+    function test(){
+        var x = 20;
+    }
+    test();
+    console.log(x);
+    // var 10 is declered globally and this will be executed first, utside the function 'test' is a global scope
+    and thats whay it can be acessible from anywhere in this scope globally.
+    However, the one(o unico) declared and initialized inside the 'test' can ONLY be executed inside that function.
+    
+    var x = 10;
+    function test(){
+        var x = 20; // nesse cao o 20 vai sair no console porque ele que esta dentro da funcao test
+        console.log(x);
+    }
+    test();
+********************
+    var x = 10;
+    function test(){
+        if ( x > 20){
+        var x = 50;
+
+        }
+        console.log(x);
+    }
+    test();
+    // this time the result will be 'undefined' its because of the combined efect of variable scoping and variable hoisting.
+    SCOPE is a region of the program there a variable can be acessed, its determine the acessebillity/ visibility of a
+    variable.
+******************
+    var x = 10;
+    console.log(x)
+    if (true){
+        var x = 20;
+        console.log(x)
+    }
+    console.log(x);
+    // output
+        10
+        20 
+        20 
+    the last value 'x' depends of the value who is asigned inside of the if-blocks ---
+    (its because JavaScript does not have block-level-scope. Its has function-level-scope)
+    that’s means block such as if-statement and loops do not create new scopes in JavaScript.
+    Rather(em vez) a new scope is created only when an function is defined.
+    *****************
+    JavaScript allows function definitions to go inside any blocks.
+    (IIFE => Immediately Invoked Function Expression) inside the if-blocks thas will result in an 
+    different output.
+
+    var x = 10
+    console.log(x)
+
+    if(true){
+    (function(){
+    var x = 20;
+    console.log(x)
+
+    })();
+
+    }
+    console.log(x);
+    // In this case when a the control enters(entra) in anonymous function defined and invocade inside the if-block,
+    its create a new scope . The variable 'X' inside this scope does not affect the value of the variable 'x' in the outer(exterior)scope
+    *******************
+
+    When a variable is declared using 'let' or 'const' it is visible only inside the particular block in which it is declared.
+        var x = 10;
+        console.log(x)
+
+        function test(){
+        var x = 20
+        console.log(x);
+
+        if(x > 10){
+
+        let x = 30;
+        console.log(x)
+
+        }
+        console.log(x)
+
+        }
+        test();
+        console.log(x)
+        // in this case its print 30 because it is inside the if-block, whereas the one who follows if block is 20 because 
+        it is inside the test()
+        this means that the variable 'x' is declared e defined using 'let' has no effect on the value of the variable 'x'
+        declared outside its scope.
+        *********************
+        var x = 10;
+
+        function test(){
+        if (x > 20){
+
+        var x = 50;
+
+        }
+        console.log(x)
+
+        }
+        test();
+        // output (indefined) its because the JavaScript hoisting
+        **********HOISTING IN JAVASCRIPT*************
+        HOISTING is default bahavior of moving declarations to the top of their containing scope.
+
+        function test(){
+        var x, y;
+
+        if (false){
+        var x = 50;
+        }
+        console.log(x);
+        console.log(y);
+
+
+        y = 100;
+        console.log(y)
+        }
+        test();
+
+        //output
+        indefined =>>since the if-condition is evaluated to false 
+        indefined =>>since the if-condition is evaluated to false 
+        100 =>> because it is asigned to 'y' before the final 'console.logo()' executes.
+        
+        the important point here is, this variable hoisting mechanism works only for variable 'var' keywords 
+        its does not work for variable or identifiers declared using 'let'and 'const' keywords respectively. 
+        inside the blocks(conditional statements or loops) variables and constants should be declared
+        on the top of the blcok using 'let' and 'const' respectively.
+        If in a particular scope multiple variable or constants need to be declared, then declare
+        them in one go by using single 'var' or 'let' or 'const' keyword with comma separated identifier names,
+
+        var x, y, z; // declaring function-scope variables
+        let a, b, c; //declaring block-scope variables
+        const u, v, w; // declaring block-scoped constants
+        *********************
+
+        function test (){
+        foo();
+        bar();
+
+        //function defiened
+        //using function declaration
+        function foo (){
+
+
+        console.log('foo');
+
+        }
+
+        //function defined 
+        //using function expression
+        var bar = function(){ //=> bar is not a function
+
+        console.log('bar')
+        }
+        }
+
+        test();
+    //output
+    foo 
+
+    JAVASCRIPT interpret interpreta o codigo acima como 
+    
+    function test (){
+        function foo(){}
+        var bar;
+        
+        foo();
+        bar();
+
+        //function defined 
+        //using function declaration
+        function foo(){
+            console.log('foo');
+        }
+
+        bar = function(){
+            console.log('bar')
+        }
+    }
+    test();
+    since function foo() JavaScript interpret moves its declarations in to the to of its container scope i.e. the body of test()
+    JavaScript cannot interpret a variable as a function until it asigned which is actually is a function.
+    this is why trying to execute the statement bar() before 'bar' is defiened results in an TypeError.
+********************
+array.every() function
+*************
+array.every() function checks whether(se) all the elements of the array satisfy the given condition or not that is 
+provided by a function passed to it as the argument. A função array.every () verifica se (se) todos os elementos da matriz atendem ou não à condição especificada.
+fornecido por uma função transmitida a ele como argumento.
+SYNTAX: array.every(function[,this_argument])
+the argument to this function is a another argument that defines the condition to be checked for 
+each element of the array. This function argument itself takes three arguments:
+. array (optional)
+this is a array on which the .every() function was is called.
+
+        function isodd(element, index, array){ // three arguments
+        return(element % 2 == 1);
+
+        }
+        function func(){
+        var arr = [56, 91, 18, 112]
+        //check for odd numeber => odd impar 
+        var value = arr.every(isodd);
+        console.log(value)
+
+        }
+        func();
+
+********************
+array.some() function => checks whether at least one of the element in the array satisfy the condition checked by
+the argument function.
+*************
+
+        //javascript to illustre lastIndexOf() function
+        function isGreaterThan5(element, index, array){
+        return element > 5;
+
+        }
+        function func(){
+            //original array
+        var array = [2, 5, 8, 1, 4];
+
+            // Checking for condition in array
+            var value = array.some(isGreaterThan5)
+            console.log(value);
+
+        }
+        func(); // output igual a => true
+
+*****************************
+JAVASCRIPT ARRAY.SLICE() function
+arr.slice() function returns a new array containing a portion of the array on which it is implemented.
+The original remains(permanece)unchanged(inalterada). 
+*****************************
+        // javascript function to ilustrate the slice function
+        function slice (){
+
+        //original array
+        var array = ["banans", "limao", "abacate"]; // index => 0, 1, 2
+
+        //Extracted array
+        var new_array = arr.slice(2); // 2 é o numero do meu index na minha array
+        console.log(new_array);
+
+        }
+        slice();
+        // output =>> index 2 que  é o "abacate"
+*******************************
+array.indexOf() function => Syntax: arr.indexOf(searchElement[, index]);
+function is used to finde the index of the first occurrence of the search element provided as the argument to the function.
+indexOf() => busca a posicao do index do meu elemento na minha array.
+*******************************
+
+//javascript to illustrate indexOf() function
+        function func (){
+            var arr = ["banana", "abacaxi", "abacate"];
+
+            console.log(arr.indexOf("abacaxi")); //=> com um parameter
+
+        };
+        func();
+        //output => 1
+
+****************************
+array.concat() function => is used to merge two or more arrays together. 
+****************************
+        // javascript code for illustrate the concat() function
+
+        function concat () {
+        var array1 = [2,4,5,8,10];
+        var array2 = ["amor", "vida", "paixao"];
+        var array3 = ["a", "b", "c"];
+
+        console.log(array1.concat(array2, array3)); 
+        // aqui tambem posso acrescentar outros valores 
+         console.log(array1.concat(array2, array3,[32,36]));
+
+        }
+        concat(); // output => [2,4,5,8,10, "amor", "vida", "paixao","a", "b", "c" ] concat junta tudo em uma só.
+   
+    ************************
+    Object.values() in javascript
+    .Constructors are general JavaScript functions which are used with the 
+    "new" keyword. Are two types in javascript i.e. built-in constructors(array and object)
+    and custom constructors(define properties and methods for a specific objects).
+    .Constructors can be useful when we need to create an obeject "type" that can be multiple
+    times without having to redefine the object every time and this could be achieved using the obeject Constructor functio.
+    Its a convention to capitalize the name of constructors to distinguish them from regular functions.
+    ************************
+
+        function autoMobile(color){
+        this.color = color;
+
+        }
+        var vehicle1= new autoMobile ("red");
+        console.log(vehicle1);
+
+        autoMobile(); // output => color: "red"
+
+    // the "autoMobile()" is an obeject constructor, and its properties and
+    methods i.e "color" is declared inside it by prefixing it with the keyword "this".
+    objects defined using an obeject constructor are then made instans using the keyword "new".
+ // when a new autoMobile() is called, javascript does two things:
+ 1. It creates a fresh new obeject(instance) autoMobile() and assigns it to a variable.
+ 2. It sets the constructor property i.e. "color" of the obeject to autoMobile.
+ ************
+ obeject.values() Method is used to return an array whose elements are the enumerable
+ properties values found on the obeject.
+ APPLICATIONS:
+ . Object.values() is used for returning enumerable property values of a simple array.
+ . Object.values() is used for returning enumerable property values of an array like obeject.
+ . Object.values() is used for returning enumerable property values of an array like obeject with random(aleatoria) key ordning.
+  Syntax: object.values(object);
+    //returning enumerable property values
+    //of an array like obj
+    var obj = {0:"1", 1: "amor", 2:"true"};
+    console.log(Object.values(obj));
+    // output =>  ["1", "amor", "true"]
+
+*********************
+Object.key() method => takes the key of my obeject
+*******************
+    //returning enumerable property values
+    //of an array like obj
+    var obj = {0:"1", 1: "amor", 2:"true"};
+    console.log(Object.keys(obj));
+    // output =>  ["0", "1", "2"] => sao as chaves do meu object
+
+    ****************
+    Object.entries() => pega o valor de cada "key" e "value" e os coloca en diferentes array
+    ****************
+    var meuObj = {0:"amor", 1:"paixao", 2:"carinho", 3:"saudade"}
+    console.log(Object.entries(meuObj)); //console.log(Object.entries(meuObj)[1]) => traz apenas o primeiro index na array
+    output:// 
+    ["0", "amor"]["1", "paixao"]
+    ["2", "carinho"]["3", "saudade"]
+
+    ******************
+    Object.seal() in javascript => seal(sela) sela um objeto, evitando que novas propriedades sejam adicionada á ele 
+    e marcando todas as propriedades existentes como nao configuraveis.
+     Object.seal(obj)
+     object.seal() => is used to seal an object. Sealing an object does not allows
+     new properties to be added and marks all existing properties as no-configurable.
+     Although values of present properties can be changed as long as they are writable.
+     The object to be sealed is passed as an argument and the method returns the object 
+     which has been sealed. 
+    ******************
+    APPLICATIONS:
+    . Object.seal() is used for Sealing objects and arrays.
+    . Object.seal() is used to make an object immutable. 
+
+        //creating an object constructor and assigning values to
+        const obj1 = {afeto: "amor"}
+
+        //creating a second object which will seal the properties of the first object
+        const obj2 = Object.seal(obj1)
+
+        //Updating the properties of the frozen object
+        obj2.afeto= "carinho";
+
+        //Displaying the propeties of the frozen object
+        console.log(obj2.afeto);
+        output: // "carinho"
+
+
+****************
+object Oriented in javascript
+.OBJECT
+.CLASSES
+.ENCAPSULATION => 
+.INHERITANCE => heranca
+*********
+1-Object - An OBJECT is a unique entity which contains property and methods. 
+exemplo "carro" é um objeto da vida real que contem rodas, cor, tipo, modelo que sao chamados de "Property"
+in object Oriented programing and the actions are called methods. 
+An object is an instance of a class. 
+Note: A method in javascript is a property of an object whose vaue is a function.
+A object can be created in two ways in javascript.
+
+1. using an Object Literal 
+// Defining obeject 
+let person = {
+	first_name: 'Silvia',
+	last_name: 'morais',
+
+//method
+getFunction : function(){
+return (`the name of the person is ${person.first_name} ${person.last_name}`)
+
+},
+//object within object
+phone_number : {
+mobile: '12345',
+landline: '339939'
+
+}
+}
+console.log(person.getFunction());
+console.log(person.phone_number.landline);
+output: //
+***************************************
+2.Using a object Constructor
+
+//using a constructor 
+function person(first_name, last_name){
+this.first_name = first_name;
+this.last_name = last_name;
+}
+//creating new instances of person object
+
+let person1 = new person('silvia', 'morais');
+let person2 = new person('sabrina','Silva');
+
+console.log(person1.first_name);
+console.log(`${person2.first_name} ${person2.last_name}`);
+//output:
+**************************************
+3. Object.create() method. The Object.create()method creates a new object, using an existing object as the prototype of
+the newly created object. 
+
+//Obeject.create() exemple a
+//simple obeject with some properties
+const coder = {
+ isStudying : false,
+ printIntroduction : function(){
+console.log(`my name is ${this.name}. am i studying?: ${this.isStudying}.`)
+
+}
+
+}
+//Obeject.creat() method
+const me = Object.create(coder);
+
+//"name" is a property set on "me", but not on a "coder"
+me.name = "Silvia";
+
+//Inherited properties can be overwritten (propriedades herdadas podem ser substituidas)
+me.isStudying = 'True';
+me.printIntroduction();
+//output : my name is Silvia. am i studying?: True.
+********************************************************
+4.CLASSES are blueprint of an object. A class can have many Object, 
+bacause class is a template while Object are instances if the class or the concrete
+implementation.
+
+******//the "new" keyword
+******//creates a new empty object {}
+******//sets the value of 'this' to be the new empety objectec
+*****//calls the constructor method
+
+
+//ES6 classes
+//Defining class using es6
+class Vehicle {
+constructor(name, maker, engine){
+	this.name = name;
+	this.maker = maker;
+	this.engine= engine; 
+}
+getDetails(){ // uma funcao para chamar o retorno
+ return (`the name of the bikes is ${this.name}. `)
+}
+
+
+}
+
+//Making object with the help of the constructor
+let bike1 = new Vehicle('Hayabusa', 'suzuki', '1340cc');
+let bike2 = new Vehicle('Ninja', 'Kawasaki', '998cc');
+
+console.log(bike1.name);
+console.log(bike2.name);
+console.log(bike1.getDetails());
+//output:
+ Hayabusa
+ Ninja
+the name of the bikes is Hayabusa. 
+*********************************************
+//usando a versao traditional
+//Defining class in a trdaional way
+function Vehicle (name, maker, engine){ //funcao com tres parametros
+	this.name = name;
+	this.maker = maker;
+	this.engine= engine; 
+}
+Vehicle.prototype.getDetails = function (){ // uma funcao para chamar o retorno
+ console.log(`the name of the bikes is ${this.name}. `)
+}
+
+//Making object with the help of the constructor
+let bike1 = new Vehicle('Hayabusa', 'suzuki', '1340cc');
+let bike2 = new Vehicle('Ninja', 'Kawasaki', '998cc');
+
+console.log(bike1.name);
+console.log(bike2.name);
+console.log(bike2.getDetails());
+//output:
+//Hayabusa
+//'Ninja
+//the name of the bikes is Ninja
+*************************************
+5.ENCAPSULATION
+//encapsulatio  example
+class person {
+constructor(name, id){ // crio uma class com dois parametros
+this.name = name;
+this.id = id;
+
+}
+add_Adress(add){ //adiciono um novo obejto
+this.add = add;
+
+}
+getDetails(){ // chamo a funcao e coloco os dois objetos criados dentro dela
+console.log(`name is ${this.name} adress is ${this.add}`);
+}
+
+}
+let person1 = new person('Mukul', 21); //crio uma variavél para colocar a pessoa criada dentro
+person1.add_Adress('Delhi');
+person1.getDetails();
+output //name is Mukul adress is Delhi
+************************'
+4.INHERITANCE => it is a concept in wich somo property and methods of a object is being used by a another object.
+*****************
+//Inheritance - example
+class pers{
+	constructor(name){
+	this.name = name;
+}
+//method to return the string
+toString(){
+	return(`name of person is: ${this.name} `);
+}
+
+}
+class student extends pers{
+constructor(name, id){
+
+//super keyword to for calling above class constructor
+super(name);
+this.id = id;
+
+}
+toString(){
+ return (`${super.toString()}, Student ID: ${this.id}`);
+}
+
+}
+let student1 = new student('Mukul', 22);
+console.log(student1.toString()); 
+output// name of person is Mukul Student ID is 22
+
+NOTE: The person and Student object both have same method toString(),
+this is called as Method Overriding. Method Overriding allows method in a 
+child class to have the same name and method signature as that of a parent
+class. 
+In the above code, super keyword is used to refer immediate parent class instance
+variable.
+****************************
+JavaScript Obejects
+****************************
+Literal Form: The Literal form uses the construction of obeject Literal that
+can be said as a collection of key-value pairs enclosed within a pair of curlybraces.
+******************'
+using New keyword: This methodology uses the new keyword in front of
+any constructor method or any built in constructor method (such as Object, Date, String etc)
+and creates a new instance of the following object by mounting it on memory.
+function obj(value1, value2, ...){
+    this.key1 = value1;
+    this.key2 = value2;
+    .....
+}
+Var obj = new obj();
+obj.key1 = value1;
+obj.key2 = value2;
+
+differences between using Object Literals and the Constructed form:
+both the Constructed form and Literal form result in creating exactly the same  sort 
+of object i.e the end result is same for both the methodologies. 
+**************************************************
+//the difference between Objects an Primitives
+//create string primitive
+var strPrimitive = "diaDoAmor";
+typeof strPrimitive; //string
+strPrimitive instanceof String; //false
+
+//use the built-in string function as constructor
+Var strObject = new String("diaDoAmor");
+typeof strObect; //"Object"
+strObject instanceof String; //true
+
+
+//inspect the object sub-type
+Object.prototype.toString.call(strObject); //[obeject String]
+************
+the general final syntax of defining an object property is as shown below=
+(objectName.objectProperty = propertyValue;)
+*********************************
+var myObj = {
+//Integer Property.
+into_pro: 5,
+
+//String Propety
+str_pro: "diaDoAmor",
+
+//object Property (Date)
+obj_prop: new Date(),
+
+//Object Property.
+inner_obj: {
+int_prop: 6
+},
+
+//function Property.
+func_prop: function(){
+console.log("welcome diaDoAmor");
+
+}
+};
+console.log(myObj.into_pro);
+console.log(myObj.str_pro);
+console.log(myObj.obj_prop.toLocaleTimeString());
+console.log(myObj.inner_obj.int_prop);
+myObj.func_prop();
+//output:
+5
+diaDoAmor
+toLocaleTimeString ...a hora agora
+6
+welcome diaDoAmor
+//
+**********************************************
+o codigo POST E GET antes de ser modificado
+*********************************************
+        
+        let myForm = document.getElementById('form-simple'); // min form-formulär
+
+        let requestURL = 'https://cluedo.idg.se/job-questions/questions';
+        let request = new XMLHttpRequest();
+
+        request.responseType = ('json');    
+        request.open('GET', requestURL, true);
+        request.send();
+
+        request.onload = function() { // loading my json data
+        
+        let showData = request.response; // chamo essa variavel como um paramentro dentro das minha duas funcoes! 
+        
+        showForm(showData['job-title']);
+        radios(showData['job-title']['options'], myForm);
+        }
+
+        function showForm(jsonObj){
+            let myInput = document.createElement('p');
+            myInput.textContent = jsonObj['text'];
+            myForm.appendChild(myInput);
+        }
+
+        function radios (options, form) { // skapa divar stället som har animations som fylles, med färger. 
+            //inga knappar alls bara kanske mouse over med färger
+            //skapa classe för hela class
+            
+        for(let i = 0; i < options.length; i++) {
+
+            let wrapper = document.createElement('div');
+
+            wrapper.setAttribute('class', 'form-check-inline');
+            wrapper.classList.add('text')
+
+            let radioinput = document.createElement('input');
+
+            radioinput.setAttribute('type', 'radio'); 
+            radioinput.setAttribute('name', 'rbtn');
+            radioinput.setAttribute('class', 'form-check-input');
+            radioinput.setAttribute('title', options[i]);
+            
+        
+            let text = document.createElement('text');
+            text.textContent = options[i];
+
+            form.appendChild(radioinput);
+            form.appendChild(text);
+            form.appendChild(wrapper);
+        
+            
+        }
+        
+    }
+        document.getElementById('myBtn').addEventListener("click", function(){
+        document.getElementsByName('rbtn').forEach(radio => {
+            if (radio.checked){
+                console.log(radio.title)
+            }
+
+        });
+        //document.getElementById('result').innerHTML = options[i];
+        alert('Thank you for your answer!');
+        
+    });
+        //filtrera denna med funktionen filter så du bara får den som är checked=true
+        document.getElementById('gettext').addEventListener('click', addPost);
+         function addPost(event) {
+            event.preventDefault();
+          
+            let rbtn = document.getElementsByName('rbtn');
+            //lägger in getElementByName in an array using array propotype
+            let rbtnArray = Array.prototype.slice.call(rbtn);
+            const result = rbtnArray.filter(rbtnArray => {return rbtnArray.checked})[0].title;
+
+            const MyPost = {
+            value: result // o valor da minha callback function 
+            };
+
+            fetch ('https://cluedo.idg.se/respond/job-title', {
+            method: 'POST', 
+            mode:  'cors',      // no-cors, *cors, same-origin
+            cache: 'no-cache', // *default, no-cache, reload, force-cache, only-if-cached
+            credentials: 'same-origin',
+            headers: {
+                'Content-Type': 'application/json',
+                'Origin' : 'https://www.idg.se'
+            },
+            body: JSON.stringify(MyPost) // mostra o resultado från my objects
+         
+        
+        })
+            .then((res) => {
+                if (res.ok) {
+                    return res.json() 
+                } else {
+                    return Promise.reject({ status: res.status, statusText: res.statusText });
+                }   
+                
+            })
+            .then(data => { // then() once the data is retrieved from the URL. This is what we call ‘asynchronous’ code
+            //data.json()
+                
+            //first argument is a callback and the secund value is the initial value for the 't'
+            // this method takes a callback with 2 parameters
+            const total = Object.values(data).reduce((t, n) => t + n ); 
+            const result2 = Object.keys(data).map(point => {return 100 * data[point]/total});
+                      
+            const ctx = document.getElementById("myChart");
+            Chart.defaults.global.defaultFontColor = 'black';
+            const chart = new Chart(ctx, {
+            type: 'bar',
+           
+            data:{
+            labels: Object.keys(data), // a chave de cada elemento da minha string object..
+            datasets: [
+            {
+            label: 'Percentage',
+            data: result2,
+            backgroundColor: [
+            'rgb(210,105,30)',
+            'rgb(70,130,180)',
+            'rgb(75,0,130)',
+            'rgb(205,92,92)',
+            'rgb(255,0,0)',
+            'rgb(255,215,0)'   
+        ],
+        borderColor: [
+            'rgb(210,105,30)',
+            'rgb(70,130,180)',
+            'rgb(75,0,130)',
+            'rgb(205,92,92)',
+            'rgb(255,0,0)',
+            'rgb(255,215,0)'
+        
+        ],
+
+        borderWidth: 1
+    }]
+    },
+        options: {
+        scales: {
+                
+                yAxes: [{
+                ticks: {
+                
+                min: 0,
+                max: 100,
+                callback: function(value){return value + "%"}
+            },  
+                scaleLabel: {
+                display: true,
+                labelString: "IDGS users"
+            },
+        }]
+    }
+    }
+    // catch pega todos os erros
+    //.catch(err => console.log('Error message:', err.statusText))
+
+    }); 
+    
+    });
+    
+    }
+    /*
+    const api = 'https://cluedo.idg.se/respond/job-title';
+    async function respond(){
+        const response = await fetch(api);
+        const data =  await response.json();
+        console.log(data);
+
+    }
+
+    respond();
+    */
+    /****************
+     * 
+     * document.querySelector('input[name="rbtn"]:checked').value;   
+     * VARIABEL TO GET THE RIGTH KEY AND VALUE FROM JSON OBJECT!
+         let stats = { 
+                    "Developer":12, 
+                    "CIO":19, 
+                    "IT Architect":3, 
+                    "Computer Engineer":5,
+                    }
+
+                for (let [key, value] of Object.entries(stats)) {
+                    let ul = document.createElement('ul');
+                        ul.textContent = (`${key}: ${value}`);
+                        myForm.appendChild(ul);
+                        
+                }
+
+
+
+
+                   const total = arr.reduce((a, b)=>{ // arrayy
+  
+
+            })
+    ******************/
+
+                /**************            
+                    var ctx = document.getElementById('myChart').getContext('2d');
+                    var chart = new Chart(ctx, {
+                    // The type of chart we want to create
+                    type: 'bar',
+                    axisY: {
+                    
+                        includeZero: false,
+                    },
+                    
+
+                //The data for our dataset
+                data: {
+                    labels: ['Developer', 'CIO', 'IT-arkitekt', 'Dataingenjör'],
+                    datasets: [{
+                    label: 'IDGS users',
+                    backgroundColor: '#e7a61a',
+                    borderColor: '#a5d8c7',
+                    render: 'percentage',
+                        data: [10, 5, 2, 20, 30]
+                    
+                    }]
+                },
+
+        // Configuration options go here
+        options: {}
+    });
+
+    }
+    */
+
+                
+        
+            
+            
+
+
+
+
+
+            
+        
+
+
+
+    //var stats = {"Developer":1, "CIO":4, "IT-manager":12};
+    //Object.keys(stats).forEach(st=>{ console.log(st.padEnd(25), '#'.repeat(stats[st]), stats[st] ) });
+
+
+
+
+
+
+
+
+
+
+
+//filtrera denna med funktionen filter så du bara får den som är checked=true
+/******
+     * Function addEventlistener to show the result data when a button is clicked
+     * 1. Uppdatera så att click anropar röstfunktionen
+       2. Uppdatera så att röstfunktionen tar värdet av den clickade div:en
+       3. Visa statistiken i div:arna som graf/style 
+    */
+/************
+    * This function take a eventListener when the DivElement is clicked....
+  
+      let MyDiv = document.getElementsByClassName("block2");
+     // console.log(MyDiv)
+      myDiv.forEach(item, index, array => {
+       
+      MyDiv.addEventListener("click", addPost);
+      function addPost(event) {
+       
+      event.preventDefault();
+        **********/
+
+/* Här behöver vi uppdatera till det clickade objektets värde som result */
+//
+
+//console.log(divElement)
+//let divArray = Array.prototype.slice.call(divElement);
+// console.log(divArray)
+//
+
+/* ------------------- */
+/********
+ * 
+ *document.getElementById('btn2').addEventListener('mouseover', divevent)
+function divevent(event){
+event.preventDefault();
+}
+
+//data.json()
+    
+//first argument is a callback and the secund value is the initial value for the 't'
+// this method takes a callback with 2 parameters
+
+// function myDiv (options, div) { // skapa divar stället som har animations som fylles, med färger. 
+    //inga knappar alls bara kanske mouse over med färger
+
+* 
+* 
+*/
+
+
+
+
+
+
+
+
+
+
+
+*********************
+/*******
+ * Here is created a class with a constructor with two arguments
+ */
+class questions {
+  constructor(question_id, output_div) {
+    this.question_id = question_id;
+    this.output_div = output_div;
+
+    // set the api inside a div
+    let outputDiv = document.getElementById(output_div);
+    let requestURL = "https://cluedo.idg.se/job-questions/questions";
+    let request = new XMLHttpRequest();
+    request.responseType = "json";
+    request.open("GET", requestURL, true);
+    request.send();
+    /***Function to onload and show the api **/
+    request.onload = function() {
+      let data = request.response;
+      showTitle(data[question_id]);
+      showData(data[question_id]["options"], outputDiv);
+    };
+    /***Function to show the title of the api **/
+    function showTitle(jsonObj) {
+      let p = document.createElement("p");
+      p.textContent = jsonObj["text"];
+      outputDiv.appendChild(p);
+    }
+    /**
+     * This function will loop through the api data and show them in my div elements.
+     */
+    function showData(options, outputDiv) {
+      // Create outer div
+      let outerDiv = document.createElement("div");
+
+      // Loop the options data object and create div elements for each data item
+      for (let i = 0; i < options.length; i++) {
+        let innerDiv = document.createElement("div");
+        innerDiv.className = "block2";
+        innerDiv.textContent = options[i];
+        // Add a on click event to each div element
+        addClickEvent(innerDiv);
+        outerDiv.appendChild(innerDiv);
+        outputDiv.appendChild(outerDiv);
+      }
+
+      function addClickEvent(element) {
+        let divArray = document.querySelectorAll(".block2");
+        //console.log(divArray);
+        let newArray = Array.prototype.slice.call(divArray);
+
+        console.log(newArray);
+        element.addEventListener("click", function() {
+          let result = newArray.filter(item => {
+            return (item.style.background = "#7B68EE") && item.data[i];
+          });
+
+          //{return divArray.checked})[0].title;
+          // console.log(result)
+
+          const MyPost = {
+            value: result // o valor da minha callback function
+          };
+
+          fetch("https://cluedo.idg.se/respond/job-title", {
+            method: "POST",
+            mode: "cors", // no-cors, *cors, same-origin
+            cache: "no-cache", // *default, no-cache, reload, force-cache, only-if-cached
+            credentials: "same-origin",
+            headers: {
+              "Content-Type": "application/json",
+              Origin: "https://www.idg.se"
+            },
+            body: JSON.stringify(MyPost) // mostra o resultado från my objects
+          })
+            .then(res => {
+              if (res.ok) {
+                return res.json();
+              } else {
+                return Promise.reject({
+                  status: res.status,
+                  statusText: res.statusText
+                });
+              }
+            })
+            // then() once the data is retrieved from the URL. This is what we call ‘asynchronous’ code
+            .then(data => {
+              const total = Object.values(data).reduce((t, n) => t + n);
+              const result2 = Object.keys(data).map(point => {
+                return (100 * data[point]) / total;
+              });
+
+              console.log(result2);
+            });
+        });
+      }
+    }
+  }
+}
+
+/* What the data looks like
+          [ 22.234, 33.434, 55.23 ]
+        */
+  // hämta alla divar (querySelectorAll el getElementsByClassName)
+  // gör till Array, loopa igenom dem med variabel "i"
+  // sätt första divens bredd till data[0]
+  // sätt andra divens bredd till data[1]...
+  // där [0], [1] är en loopens variabel ("i")
+
+
+
+
+ *************CSS POSITION*****************
+ With position relative is like statisct position by default.
+ with position realative we can change - the top, left, right and botton of this elements
+  position fixed

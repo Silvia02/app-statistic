@@ -1,0 +1,8 @@
+{
+    "id " : "job-title",
+    "text" : "What is your job title?",
+    "type" : "single-choice",
+    "options": 
+    ["Developer", "CIO", "IT Architect", "Webdesigner"]
+ }
+

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="public/style.css" />
+    <title>Questions</title>
+  </head>
+  <body>
+    <h1>📉&#128225Statistic!&#128202&#128187</h1>
+   
+    <div id="question1"></div>
+    <div id="question2"></div>
+
+    <!-- Load the functions needed for this script-->
+    <script async src="router/main.js" id="main-js"></script>
+    <!-- Run the functions -->
+    <script>
+      document.getElementById("main-js").addEventListener("load", () => {
+        // Create ny instance of class questions
+        let quest1 = new questions("job-title", "question1");
+        let quest2 = new questions("expertise", "question2");
+      });
+    </script>
+    </body>
+  </html>
+  <!-------------
+  margin: 20px, is alround all divs
+  -->
